@@ -4,7 +4,7 @@ layout: home
 ---
 
 # This is my personal wiki
-smautsm
+
 This is a place for me to store my notes. I have made this public so I can share notes with others, and maybe they'll help out a stranger on the internet.
 
 On here you'll find information on how to:
@@ -15,7 +15,7 @@ On here you'll find information on how to:
 
 More specifically, the created site:
 
-- Think - Metacognition, logic, mental models, neuroscience
+- Think - Meta-Cognition, logic, mental models, neuroscience
 - Code - Python, machine learning, cloud devops
 - Work - leadership, communication, productivity
 - Live - Philosophy, happiness

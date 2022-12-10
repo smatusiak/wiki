@@ -11,12 +11,18 @@ Developing on Windows can be tricky. This doc outlines how to set up a functiona
 ## Cheat Sheet
 Use Chocolatey as a package manager for Windows
 1. Open admin command prompt
+    '''cmd
     Set-ExecutionPolicy Bypass -Scope Process
+    '''
 2. Install Chocolatey
+    '''cmd
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    '''
 3. Install Python
+    '''cmd
     choco install python3
-    
+    '''
+
 ## Windows App Store
 Windows has added Python to their app store. While this may seem attractive because it's easy and convenient to install and manage, it makes developing a pain because your path and folders are note set up for things like `pip` and `virtualenv`.
 
@@ -39,6 +45,9 @@ To install Python, open a command prompt as an administrator and run the followi
     choco install python3
 
 ## Next steps
-### Install Visual Studio Code
-### Install GitHub Desktop
-### Install virtualenv
+### Install:
+### Visual Studio Code
+### GitHub Desktop
+### virtualenv
+### pipenv
+### Windows Subsystem for Linux (WSL)
