@@ -2,6 +2,8 @@
 ---
 title: How to set up Python on Windows
 layout: page
+parent: Coding
+nav_order: 1
 ---
 
 # How to set up Python on Windows
