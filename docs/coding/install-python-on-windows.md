@@ -1,4 +1,3 @@
-
 ---
 title: How to set up Python on Windows
 layout: page
