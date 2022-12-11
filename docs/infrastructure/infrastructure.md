@@ -18,6 +18,9 @@ I mostly play with:
     - Azure Functions
     - Azure App Service
     - Azure SQL
+- GitHub
+    - Pages
+    - Actions
 - Virtualization/Containerization (VMWare, Hyper-V)
     - Linux
     - Windows
