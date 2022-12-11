@@ -2,6 +2,9 @@ title: W21 Wiki
 description: ML Ops, GCP, Azure, data science, digital marketing, SRE, and soft skills (decision making, communication)
 theme: just-the-docs
 
+# Theme
+remote_theme: pmarsceill/just-the-docs
+
 url: https://wiki.workinthe21st.com
 
 aux_links:
