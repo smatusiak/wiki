@@ -45,3 +45,8 @@ Investing in developing digital dexterity will not only enhance the quality and 
 **So, what are you waiting for? Start building your digital dexterity today and unlock a world of possibilities!**
 
 ## Additional Resources
+
+For a comprehensive overview of digital dexterity, visit this resourceful page from Digital Adoption: [What is Digital Dexterity?](https://www.digital-adoption.com/what-is-digital-dexterity/). It offers an in-depth explanation of the concept and its importance in the modern workplace.
+
+If you're looking for more information on how to build digital dexterity within your team or organization, check out this insightful article from Harvard Business Review: [How to Build Digital Dexterity Into Your Workforce](https://hbr.org/2021/10/how-to-build-digital-dexterity-into-your-workforce). It provides practical tips and strategies to help you develop a more digitally dexterous workforce.
+
