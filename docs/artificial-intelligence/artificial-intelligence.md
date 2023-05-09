@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/artificial-intelligence
 ---
 
-[![AI and Progress - Source www.waitbutwhy.com](../../assets/ai-progress.png)](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
+[![AI and Progress - Source www.waitbutwhy.com](../../assets/images/ai-progress.png)](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
 
 # Embracing the Dawn of the Information Industrial Revolution: AI as Our New Electricity
 
