@@ -1,3 +1,8 @@
+---
+title: LLM Tokens and OpenAI's Tokenizer
+layout: page
+parent: Artificial-Intelligence
+---
 # Tokens for LLMs
 
 Tokens are pieces of words used for natural language processing. For English text, 1 token is approximately 4 characters or 0.75 words². Large Language Models (LLMs) use a consumption pricing model that charges based on the amount of text characters (tokens) exchanged between the application and the AI³.
