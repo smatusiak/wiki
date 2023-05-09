@@ -1,7 +1,7 @@
 ---
 title: From Mainframes to Serverless: The Evolution of Virtualization and Containerization
 layout: page
-parent: infrastructure
+parent: Infrastructure
 ---
 
 # From Mainframes to Serverless: The Evolution of Virtualization and Containerization

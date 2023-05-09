@@ -1,7 +1,7 @@
 ---
 title: LLM Tokens and OpenAI's Tokenizer
 layout: page
-parent: Artificial-Intelligence
+parent: Artificial Intelligence
 ---
 # Tokens for LLMs
 

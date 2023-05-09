@@ -1,7 +1,7 @@
 ---
 title: Thank god for WSL (Windows Subsystem for Linux)
 layout: page
-parent: infrastructure
+parent: Infrastructure
 ---
 
 # Thank god for WSL (Windows Subsystem for Linux)

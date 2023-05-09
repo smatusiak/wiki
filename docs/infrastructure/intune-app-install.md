@@ -1,7 +1,7 @@
 ---
 title: Microsoft Win32 Content Prep Tool
 layout: page
-parent: infrastructure
+parent: Infrastructure
 ---
 
 # Microsoft Win32 Content Prep Tool
