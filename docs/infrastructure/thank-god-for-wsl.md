@@ -32,11 +32,12 @@ There are two versions of WSL. WSL 1 is a translation layer on the Windows kerne
 
 ## 3. How to Install WSL
 
-### Step 1: Enable WSL
+### Step 1: Install and Enable WSL
 
 Open PowerShell as Administrator and run:
 
 ```powershell
+wsl --install
 wsl --set-default-version 2
 ```
 
