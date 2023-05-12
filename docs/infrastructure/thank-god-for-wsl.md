@@ -32,7 +32,33 @@ There are two versions of WSL. WSL 1 is a translation layer on the Windows kerne
 
 ## 3. How to Install WSL
 
-### Step 1: Install and Enable WSL
+When installing and enabling the Windows Subsystem for Linux (WSL), it's essential to perform these actions as an administrator. However, as reported in [this GitHub issue](https://github.com/microsoft/WSL/issues/9575), even running PowerShell as an administrator may not be sufficient if your currently logged-in user doesn't have administrative rights. In these cases, you may encounter a "Catastrophic failure" error message.
+
+## Use Case
+
+Users logged in to Windows with a non-administrative account, using a separate administrative account to perform tasks that require elevated privileges, may find that the installation of WSL does not proceed as expected. When trying to run the `wsl --install` command from a PowerShell instance opened with administrative privileges, the system may respond with a "Catastrophic failure" error message.
+
+Even after installing a Linux distribution from the Microsoft Store, the installed distribution may not be recognized by the `wsl -l -v` command. The issue seems to persist across various attempts to uninstall and reinstall different components.
+
+## Solution
+
+The issue appears to be tied to permissions. When PowerShell is run as a different user, even with administrative privileges, the system fails to install WSL properly. The solution to this problem is to grant administrative rights to the currently logged-in user and execute the installation commands using that account.
+
+Here are the steps to solve the problem:
+
+1. Log in to your Windows machine with an account that has administrative privileges.
+2. Open the User Accounts control panel (you can search for it in the Start Menu).
+3. Select the user account that you want to grant administrative privileges to.
+4. Click on "Change account type".
+5. In the new window, select "Administrator" and then click on "Change Account Type".
+6. Log out from the administrative account and log back in to the user account that you just granted administrative privileges to.
+7. Open a new PowerShell window and run the `wsl --install` command again.
+
+After following these steps, you should be able to successfully install and enable WSL, as well as install distributions without encountering the "Catastrophic failure" error message.
+
+**Important Note:** Granting administrative privileges to a user account should be done cautiously. Having administrative privileges allows the user to make significant changes to the system, which can lead to potential security risks or system instability if misused. Always ensure you follow your organization's IT policies and best practices.
+
+### Enable WSL
 
 Open PowerShell as Administrator and run:
 
@@ -41,7 +67,7 @@ wsl --install
 wsl --set-default-version 2
 ```
 
-### Step 2: Install a Linux Distribution
+### Install a Linux Distribution
 
 Visit the Microsoft Store and search for "Linux". Select your preferred distribution (for example, "Ubuntu") and click "Install".
 
