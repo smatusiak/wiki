@@ -17,7 +17,7 @@ I mostly play with:
 - Azure
     - Azure Functions
     - Azure App Service
-    - Azure SQL
+    - Azure SQL/PostgreSQL
 - GitHub
     - Pages
     - Actions
